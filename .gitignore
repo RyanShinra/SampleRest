@@ -16,6 +16,9 @@ coverage/
 .env
 .env.local
 .env.*.local
+.env.development
+.env.test
+.env.production
 
 # IDE
 .idea/
@@ -29,8 +32,22 @@ coverage/
 # Logs
 logs/
 *.log
+npm-debug.log*
 
 # Temporary files
 *.tmp
 temp/
 .vscode/settings.json
+
+# IDE
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
